@@ -123,8 +123,8 @@ footer {
     text-align: left; 
     width: 50vw;
 }
-
-
-th{
-    border-bottom: solid 2px #682661; 
+.kocicka{
+    border-radius: 3px;
+   height: 20%;
+   width: auto;
 }
