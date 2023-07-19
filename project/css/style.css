@@ -2,11 +2,25 @@
 
 body {
     font-family: Montserrat;
+    color: #682661;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    height: 45vh;
+    background-image: url(https://lh3.googleusercontent.com/pw/AIL4fc9nYGweBmdrO1DKCoyFTcTlUuFcf6CDjlxWCylP4s2NO6y7oIt6SBvg-SFv8yKFSBKJm1_G-kN4yecS0DkfsuCLzhq-gMqTuCCW20Hsy33O0NR0Of49E60u3zYEYSbfkAOKLiJRBc7Opy6f78IBDvQU=w1218-h914-s-no?authuser=0);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
 }
 
 h1 {
     text-align: center;
     font-family: Lobster;
+    font-size: 5vh;
+    
 }
 
 h2 {
