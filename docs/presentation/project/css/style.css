@@ -126,8 +126,6 @@ footer {
     padding: 1vh 5vw 10vh 5vw;
     text-align: left; 
     width: 50vw;
-    border-style: solid;
-    border-color: #682661;
 }
 img{
     flex-direction: column;
