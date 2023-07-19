@@ -122,9 +122,12 @@ footer {
 }
 
 .menu {
-    margin: 1vh 25vw 0 25vw;
+    margin:0 20vw 0 20vw;
+    padding: 1vh 5vw 10vh 5vw;
     text-align: left; 
     width: 50vw;
+    border-style: solid;
+    border-color: #682661;
 }
 img{
     flex-direction: column;
