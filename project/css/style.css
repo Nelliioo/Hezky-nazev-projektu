@@ -114,12 +114,15 @@ footer {
 }
 .tabulka{
    align-items: center;
-<<<<<<< HEAD
+
 }
 .bezdoprostred 
     
 .nova {
     width: 250px;
-=======
->>>>>>> 1789cb0afe91f1623a5c7ae588cd6a9ae0823b68
 }
+
+.menu {
+    margin: 1vh 0 0 5vh
+}
+
