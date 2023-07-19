@@ -5,17 +5,40 @@ body {
     color: #682661;
     margin: 0;
     padding: 0;
+    text-align: center; display: flex; justify-content: center;
+    flex-direction: column;
 }
 
 nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #682661;
+    height: 5vh;
+}
+
+.navhome{
     height: 40vh;
     background-image: url(https://lh3.googleusercontent.com/pw/AIL4fc9nYGweBmdrO1DKCoyFTcTlUuFcf6CDjlxWCylP4s2NO6y7oIt6SBvg-SFv8yKFSBKJm1_G-kN4yecS0DkfsuCLzhq-gMqTuCCW20Hsy33O0NR0Of49E60u3zYEYSbfkAOKLiJRBc7Opy6f78IBDvQU=w1218-h914-s-no?authuser=0);
     background-size: cover;
     background-position: center;
-    display: flex;
-    justify-content: flex-end;
 }
 
+main > img {
+    height: 40vh;
+    max-height: 982px;
+}
+
+
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 10vw 0 10vw
+}
+
+.aboutus {
+    width: 50 vw;
+    justify-content: flex-start;
+}
 
 .navbutton{
     text-decoration-color:transparent;
@@ -31,20 +54,18 @@ nav {
 }
 
 .logo {
-    justify-self: flex-start;
+    justify-content: flex-end;
 }
 
 h1 {
     text-align: center;
     font-family: Lobster;
-    font-size: 5vh;
     color: white;
     background-color: #682661;
 }
 
 h2 {
     font-family: Lobster;
-    
 }
 
 a:link {
@@ -64,13 +85,14 @@ a:hover {
 .c{
     width: 500px;
 }
-
 .d{
     width: 350px;
 }
-
 .e{
     width: 150px;
+}
+.b{
+    font-size: larger;
 }
 
 footer {
@@ -79,7 +101,9 @@ footer {
     background-color: #682661;
 }
 
-.bezdoprostred {
+table {
+    text-align: center;
+}
     
 
 .knt {
