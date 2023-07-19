@@ -118,7 +118,7 @@ footer {
 .bezdoprostred 
     
 .nova {
-    width: 200px;
+    table-layout: auto;
 }
 
 .menu {
