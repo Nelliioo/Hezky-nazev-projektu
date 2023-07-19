@@ -128,4 +128,6 @@ footer {
 }
 img{
     flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
