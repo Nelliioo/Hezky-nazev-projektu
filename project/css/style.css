@@ -5,3 +5,15 @@ body {
 h1 {
     text-align: center;
 }
+
+a:link {
+    color: rgb(171, 171, 171)
+}
+
+a:visited {
+    color: rgb(171, 171, 171)
+}
+
+a:hover {
+    color: rgb(139, 131, 142);
+}
