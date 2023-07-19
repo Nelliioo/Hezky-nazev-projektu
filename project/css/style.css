@@ -128,9 +128,7 @@ footer {
     width: 50vw;
 }
 img{
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-around;
+   
     
 }
 
