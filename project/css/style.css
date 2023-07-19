@@ -7,15 +7,15 @@ body {
     padding: 0;
 }
 
-
 nav {
-    height: 45vh;
+    height: 40vh;
     background-image: url(https://lh3.googleusercontent.com/pw/AIL4fc9nYGweBmdrO1DKCoyFTcTlUuFcf6CDjlxWCylP4s2NO6y7oIt6SBvg-SFv8yKFSBKJm1_G-kN4yecS0DkfsuCLzhq-gMqTuCCW20Hsy33O0NR0Of49E60u3zYEYSbfkAOKLiJRBc7Opy6f78IBDvQU=w1218-h914-s-no?authuser=0);
     background-size: cover;
     background-position: center;
     display: flex;
     justify-content: flex-end;
 }
+
 
 .navbutton{
     text-decoration-color:transparent;
@@ -38,21 +38,26 @@ h1 {
     text-align: center;
     font-family: Lobster;
     font-size: 5vh;
-    
+    color: white;
+    background-color: #682661;
 }
 
 h2 {
     font-family: Lobster;
+    
 }
 
 a:link {
-    color: rgb(171, 171, 171)
+    color: rgb(255, 255, 255);
+    text-decoration-color: transparent;
 }
 
 a:visited {
-    color: rgb(171, 171, 171)
+    color: rgb(255, 255, 255)
 }
 
 a:hover {
-    color: rgb(139, 131, 142);
+    text-decoration-color: white;
+    transition: 0.5s;
+
 }
