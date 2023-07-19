@@ -131,4 +131,9 @@ img{
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
+    
+}
+
+th{
+    border-bottom: solid 2px #682661; 
 }
