@@ -112,7 +112,7 @@ footer {
 }
 
 .nova {
-    width: 200px;
+    table-layout: auto;
 }
 
 .menu {
