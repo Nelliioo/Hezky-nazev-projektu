@@ -61,6 +61,24 @@ a:hover {
     transition: 0.5s;
 
 }
-.1{
+.c{
+    width: 500px;
+}
+
+.d{
+    width: 350px;
+}
+
+.e{
+    width: 150px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: #682661;
+}
+
+.bezdoprostred {
     
 }
