@@ -14,32 +14,35 @@ nav {
     justify-content: space-between;
     background-color: #682661;
     height: 5vh;
+    align-items: center;
 }
 
 .navhome{
     height: 40vh;
-    background-image: url(https://lh3.googleusercontent.com/pw/AIL4fc9nYGweBmdrO1DKCoyFTcTlUuFcf6CDjlxWCylP4s2NO6y7oIt6SBvg-SFv8yKFSBKJm1_G-kN4yecS0DkfsuCLzhq-gMqTuCCW20Hsy33O0NR0Of49E60u3zYEYSbfkAOKLiJRBc7Opy6f78IBDvQU=w1218-h914-s-no?authuser=0);
+    background-image: url(https://cdn.discordapp.com/attachments/1059084885773537372/1131355813752098998/pexels-photo-4565033.png);
     background-size: cover;
     background-position: center;
+    align-items: flex-start
 }
 
 main > img {
     width: 30vh;
-    max-height: 982px;
 }
 
 
 main {
-    display: flex;
-    justify-content: space-around;
     padding: 0 10vw 0 10vw
 }
 
 
+.knt { 
+    line-height: 2;
+}
+
 
 .navbutton{
     text-decoration-color:transparent;
-    font-size: 4vh;
+    font-size: 2.5vh;
     padding: 1vh 1vw 0 1vw;
     color: white; 
     height:5vh;
@@ -96,6 +99,7 @@ footer {
     text-align: center;
     color: white;
     background-color: #682661;
+    
 }
 
 .tabulky {
@@ -107,6 +111,7 @@ footer {
 
 .knt {
     text-align: center ;
+    align-self: center;
 
 }
 .tabulka{
@@ -117,14 +122,22 @@ footer {
     table-layout: auto;
 }
 
+
+.menupage{
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 2rem 4rem 2rem;
+
+}
+
 .menu {
-    margin:0 20vw 0 20vw;
-    padding: 1vh 5vw 10vh 5vw;
     text-align: left; 
-    width: 50vw;
+    width: min(60ch, 100%);
 }
-img{
-    border-radius: 3px;
-   height: 20%;
-   width: auto;
+
+th {
+    border-bottom:#682661 2px solid;
 }
+
