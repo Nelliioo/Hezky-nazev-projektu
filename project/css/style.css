@@ -24,8 +24,8 @@ nav {
 }
 
 main > img {
-    height: 40vh;
-    max-height: 182px;
+    width: 30vh;
+    max-height: 982px;
 }
 
 
@@ -39,6 +39,7 @@ main {
     width: 50 vw;
     justify-content: flex-start;
     text-align: start;
+    flex-wrap: wrap;
 }
 
 .navbutton{
@@ -114,4 +115,3 @@ table {
 .tabulka{
    align-items: center;
 }
-.bezdoprostred 
