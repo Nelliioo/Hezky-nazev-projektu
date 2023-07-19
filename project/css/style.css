@@ -123,6 +123,7 @@ footer {
 }
 
 .menu {
-    margin: 1vh 0 0 5vh
+    margin: 1vh 0 0 5vh;
+    text-align: left; 
 }
 
