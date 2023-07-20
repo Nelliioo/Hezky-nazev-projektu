@@ -27,7 +27,7 @@ nav {
 }
 
 .navhome2{
-    height: 10vh;
+    height: 19vh;
    background-size: cover;
     background-position: center;
     align-items: flex-start
@@ -47,6 +47,10 @@ main {
     line-height: 2;
 }
 
+.buttons{
+    padding-right: 2vw;
+    padding-top: 2vw
+}
 
 .navbutton{
     text-decoration-color:transparent;
@@ -64,7 +68,8 @@ main {
 .logo {
     justify-content: flex-end;
     font-size: 1.5rem;
-    padding-right: 1vw
+    padding-left: 2vw;
+    padding-top: 2vw
 }
 
 .logo > img {
@@ -227,4 +232,9 @@ th {
 
 .kavarna{
     width: 37px;
+}
+
+.menu_fotky{
+    height: 150px;
+    width: auto;
 }
