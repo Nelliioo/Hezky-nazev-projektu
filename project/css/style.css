@@ -10,11 +10,6 @@ body {
 }
 
 
-.topbutton {
-    height: 5vh;
-    width: auto;
-}
-
 nav {
     display: flex;
     justify-content: space-between;
@@ -153,13 +148,27 @@ footer {
     border-radius: 3px;
    width: 301px;
 }
-.kocky{
+
+.galerie{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
-.jmena{
+.kocky{
     display: flex;
+    flex-direction: column;
+}
+.mezera {
+    flex-basis: 100%;
+    height: 0;
+}
+
+.jmena{
+    text-align: center;
+    font-family: Lobster;
+    color:#682661 ;
+    font-size: xx-large;
     
 }
 
@@ -176,12 +185,24 @@ th {
     line-height: 2;
 }
 
-#topbutton{
+#topbtn{
     position:sticky;
     bottom:2vh;
     right:0;
     align-self: flex-end;
     padding: 3vw;
+}
+
+.topbutton:hover{
+    transform: scale(1.5);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.topbutton {
+    height: 5vh;
+    width: auto;
+    transition: 0.5s;
 }
 
 .map{
