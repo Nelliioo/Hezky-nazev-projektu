@@ -26,6 +26,13 @@ nav {
     align-items: flex-start
 }
 
+.navhome2{
+    height: 10vh;
+   background-size: cover;
+    background-position: center;
+    align-items: flex-start
+}
+
 main > img {
     width: 30vh;
 }
@@ -189,9 +196,10 @@ th {
 #topbtn{
     position:sticky;
     bottom:2vh;
-    right:0;
+    right:2vh;
     align-self: flex-end;
-    padding: 3vw;
+    padding: 1vh;
+    z-index: 9999;
 }
 
 .topbutton:hover{
@@ -215,4 +223,8 @@ th {
 
 .map img {
     width: 100%;
+}
+
+.kavarna{
+    width: 37px;
 }
