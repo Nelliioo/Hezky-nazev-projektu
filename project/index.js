@@ -13,5 +13,5 @@ function scroll() {
 }
 
 function top() {
-  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  document.documentElement.scrollTop = 0;
 }
