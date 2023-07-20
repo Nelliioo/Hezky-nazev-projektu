@@ -55,6 +55,13 @@ main {
 
 .logo {
     justify-content: flex-end;
+
+}
+
+.logo > img {
+    height: 10vh;
+    width: auto;
+    
 }
 
 h1 {
