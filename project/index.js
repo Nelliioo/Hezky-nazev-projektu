@@ -1,3 +1,6 @@
-function top(){
-    document.documentElement.scrollTop = 0;
-};
+function scrollToTop() {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+}

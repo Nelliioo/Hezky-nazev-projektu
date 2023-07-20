@@ -43,7 +43,7 @@ main {
 
 .navbutton{
     text-decoration-color:transparent;
-    font-size: 2.125rem;
+    font-size: 1.5rem;
     padding: 1vh 1vw 0 1vw;
     color: white; 
     height:5vh;
@@ -56,6 +56,7 @@ main {
 
 .logo {
     justify-content: flex-end;
+    font-size: 1.5rem;
     padding-right: 1vw
 }
 
@@ -208,5 +209,10 @@ th {
 .map{
     border-radius: 3px;
     width: 200px;
+    display: block;
+    margin: 0 auto;
 }
 
+.map img {
+    width: 100%;
+}
