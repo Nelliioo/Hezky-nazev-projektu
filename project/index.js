@@ -1,4 +1,5 @@
 let topbutton = document.getElementById("topbutton")
 
-window.onscroll() = function{()}
-}
+window.onscroll() = function {scrollFunction()};
+
+fun
