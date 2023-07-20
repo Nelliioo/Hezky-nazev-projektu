@@ -1,3 +1,7 @@
-function top() {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-}
+function top(){
+    var currentScroll = document.documentElement.scrollTop || document.body.scrollTop;
+    if (currentScroll > 0) {
+         window.requestAnimationFrame(smoothscroll);
+         window.scrollTo (0,currentScroll - (currentScroll/5));
+    }
+})();

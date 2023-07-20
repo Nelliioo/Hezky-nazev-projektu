@@ -194,7 +194,7 @@ th {
 }
 
 .topbutton:hover{
-    transform: scale(1.5);
+    transform: scale(1.25);
     transition: 0.5s;
     cursor: pointer;
 }
