@@ -151,9 +151,14 @@ footer {
 }
 .kocicka{
     border-radius: 3px;
-   width: 300px;
+   width: 301px;
 }
 .kocky{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.jmena{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -177,8 +182,9 @@ th {
     bottom:2vh;
     right:0;
     align-self: flex-end;
-
+    padding: 3vw;
 }
+
 .map{
 border-radius: 3px;
     width: 200px;
